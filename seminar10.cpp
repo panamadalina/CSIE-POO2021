@@ -148,7 +148,7 @@ class Angajat :public Persoana {
 };
 
 class Domeniu {
-	Student* listaStudenti;
+	Student* listaStudenti; //relatie 1-n
 	int nrStudenti;
 	char* denumire;
 public:
@@ -190,7 +190,7 @@ int main() {
 	//Persoana p1;
 	Student s1("Mada",21,"CSIE");
 	//Persoana p1("Alex", 22);
-	/*Regula*/
+	/*Regula!*/
 	//cout << p1;
 	//p1 = s1;//merge->se pierde info ->upcasting
 //	s1 = p1;//nu merge-> putem supr op=
